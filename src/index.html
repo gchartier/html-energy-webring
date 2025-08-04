@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>✳️ HTML Energy Austin Webring ✳️</title>
+        <style>
+            body {
+                background: #000033;
+                color: #00ff00;
+                font-family: "Comic Sans MS", cursive, sans-serif;
+                text-align: center;
+                margin: 20px;
+                line-height: 1.6;
+            }
+
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+
+            .header {
+                margin-bottom: 30px;
+            }
+
+            h1 {
+                color: #ffff00;
+                text-shadow: 2px 2px 4px #ff00ff;
+                font-size: 2.5em;
+                margin-bottom: 10px;
+            }
+
+            .subtitle {
+                color: #00ffff;
+                font-size: 1.2em;
+                margin-bottom: 20px;
+            }
+
+            .webring-box {
+                border: 5px solid #ff00ff;
+                background: linear-gradient(135deg, #000066, #000044);
+                padding: 30px;
+                margin: 20px auto;
+                border-radius: 15px;
+                box-shadow: 0 0 20px #ff00ff;
+            }
+
+            .energy-orb {
+                width: 100px;
+                height: 100px;
+                background: radial-gradient(circle, #00ff00, #008800);
+                border-radius: 50%;
+                margin: 20px auto;
+                animation: pulse 2s infinite;
+                box-shadow: 0 0 30px #00ff00;
+            }
+
+            @keyframes pulse {
+                0% {
+                    transform: scale(1);
+                }
+                50% {
+                    transform: scale(1.1);
+                }
+                100% {
+                    transform: scale(1);
+                }
+            }
+
+            .construction {
+                margin: 20px 0;
+            }
+
+            .construction img {
+                border: 3px solid #ffff00;
+                border-radius: 10px;
+            }
+
+            .buttons {
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                margin: 30px 0;
+                flex-wrap: wrap;
+            }
+
+            .button {
+                background: linear-gradient(45deg, #ffff00, #cccc00);
+                color: #000000;
+                padding: 12px 25px;
+                text-decoration: none;
+                border: 3px outset #cccc00;
+                font-weight: bold;
+                border-radius: 8px;
+                transition: all 0.3s ease;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            }
+
+            .button:hover {
+                background: linear-gradient(45deg, #cccc00, #ffff00);
+                border-style: inset;
+                transform: translateY(-2px);
+                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+            }
+
+            .html-energy-text {
+                color: #00ff00;
+                font-size: 1.1em;
+                margin: 20px 0;
+                text-shadow: 0 0 10px #00ff00;
+            }
+
+            .marquee-container {
+                background: #000044;
+                border: 2px solid #00ffff;
+                padding: 10px;
+                margin: 20px 0;
+                border-radius: 8px;
+            }
+
+            marquee {
+                color: #ffff00;
+                font-weight: bold;
+            }
+
+            .join-section {
+                background: #000055;
+                border: 3px solid #00ff00;
+                padding: 20px;
+                margin: 20px 0;
+                border-radius: 10px;
+            }
+
+            .join-section a {
+                color: #ffff00;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            .join-section a:hover {
+                text-shadow: 0 0 10px #ffff00;
+            }
+
+            .footer {
+                font-size: 12px;
+                margin-top: 30px;
+                color: #888888;
+            }
+
+            .spinning-text {
+                animation: spin 3s linear infinite;
+                display: inline-block;
+            }
+
+            @keyframes spin {
+                from {
+                    transform: rotate(0deg);
+                }
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+
+            .flashing-text {
+                animation: flash 1s infinite;
+            }
+
+            @keyframes flash {
+                0%,
+                50% {
+                    opacity: 1;
+                }
+                51%,
+                100% {
+                    opacity: 0.3;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>✳️ HTML Energy Austin Webring ✳️</h1>
+                <div class="subtitle">Celebrating the raw power of handmade HTML!</div>
+            </div>
+
+            <div class="webring-box">
+                <div class="energy-orb"></div>
+
+                <div class="html-energy-text">
+                    <span class="flashing-text">HTML</span> energy is all around us and in this very
+                    website!
+                    <span class="spinning-text">✳️</span>
+                </div>
+
+                <div class="construction">
+                    <img src="assets/under-construction.gif" alt="Under Construction" />
+                </div>
+
+                <div class="marquee-container">
+                    <marquee scrollamount="4" behavior="alternate">
+                        🌐 Welcome to the coolest webring in Austin, Texas! 🌐
+                    </marquee>
+                </div>
+
+                <div class="buttons">
+                    <a href="#" class="button">← Previous Site</a>
+                    <a href="#" class="button">Random Site</a>
+                    <a href="#" class="button">Next Site →</a>
+                </div>
+
+                <div class="join-section">
+                    <p>
+                        <span class="flashing-text">Want to join our webring?</span>
+                        <a
+                            href="https://github.com/gchartier/html-energy-austin-webring/discussions"
+                            target="_blank"
+                            >Join the discussion!</a
+                        >
+                    </p>
+                    <p style="font-size: 0.9em; margin-top: 10px">
+                        Be a part of the HTML Energy Austin movement! ✨
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer">
+                Last Updated: 08-03-2025 |
+                <span>Written in pure, raw HTML. Can you feel the energy?</span>
+            </div>
+        </div>
+    </body>
+</html>
