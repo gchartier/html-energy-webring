@@ -39,6 +39,7 @@ All contributions (code, feature requests, etc) are welcome!
         type="text/javascript"
         src="https://github.com/gchartier/html-energy-webring/blob/main/onionring/widget.js"
     ></script>
+    <!-- 🔺 Order matters! 🔺 -->
 </div>
 ```
 
