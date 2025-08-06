@@ -1,0 +1,57 @@
+/* onionring.js is made up of four files - onionring-widget.js, onionring-index.js, onionring-variables.js and onionring.css (this one!)
+// it's licensed under the cooperative non-violent license (CNPL) v4+ (https://thufie.lain.haus/NPL.html)
+// it was originally made by joey + mord of allium (蒜) house, last updated 2020-10-24 */
+
+/* === ONIONRING.CSS === */
+/* this file affects the style of the widget. remember to replace all instances of #webringid with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
+
+#html-energy-webring {
+    margin: 0 auto;
+    padding: 15px; /* creates some space around the widget */
+}
+
+#html-energy-webring table {
+    background-color: #ffffff; /* makes the background pure white */
+    margin: 0 auto; /* centers the widget */
+    border-radius: 20px;
+    box-shadow: 0px 0px 197px -36px rgba(6, 241, 3, 0.93);
+    -webkit-box-shadow: 0px 0px 197px -36px rgba(6, 241, 3, 0.93);
+    -moz-box-shadow: 0px 0px 197px -36px rgba(6, 241, 3, 0.93);
+    border: 3px dotted #000000;
+}
+
+#html-energy-webring table tr td {
+    padding: 10px; /* creates some space between the links and text inside the widget */
+}
+
+#html-energy-webring .webring-prev {
+    text-align: right;
+    font-size: 30px;
+}
+
+#html-energy-webring .webring-info {
+    text-align: center;
+    padding: 0;
+}
+
+#html-energy-webring .webring-info p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+#html-energy-webring .webring-next {
+    text-align: left;
+    font-size: 30px;
+}
+
+#html-energy-webring .webring-links {
+    font-size: small;
+}
+
+.webring-name {
+    font-weight: bold;
+}
+
+.webring-name span {
+    font-weight: normal;
+}

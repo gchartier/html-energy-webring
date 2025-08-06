@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="onionring/styles.css" />
+        <script type="text/javascript" src="onionring/variables.js"></script>
+        <script type="text/javascript" src="onionring/widget.js"></script>
+        <script type="text/javascript" src="onionring/index.js"></script>
+        <title>✳️ HTML Energy Webring ✳️</title>
+        <style>
+            body {
+                background: #e9e9ec;
+                color: #000000;
+                font-family: "Comic Sans MS", cursive, sans-serif;
+                text-align: center;
+                margin: 20px;
+                line-height: 1.6;
+            }
+
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+
+            .header {
+                margin-bottom: 30px;
+            }
+
+            h1 {
+                color: #000000;
+                text-shadow: 2px 2px 4px #06f103;
+                font-size: 2.5em;
+                margin-bottom: 10px;
+            }
+
+            .webring-box {
+                border: 5px solid #06f103;
+                background: #e9e9ec;
+                padding: 30px;
+                margin: 20px auto;
+                border-radius: 15px;
+                box-shadow: 0 0 20px #06f103;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+            }
+
+            .energy-orb {
+                width: 100px;
+                height: 100px;
+                background: radial-gradient(circle, #00ff00, #008800);
+                border-radius: 50%;
+                margin: 20px auto;
+                animation: pulse 2s infinite;
+                box-shadow: 0px 0px 197px 14px rgba(6, 241, 3, 0.93);
+                -webkit-box-shadow: 0px 0px 197px 14px rgba(6, 241, 3, 0.93);
+                -moz-box-shadow: 0px 0px 197px 14px rgba(6, 241, 3, 0.93);
+                position: relative;
+                z-index: 2;
+            }
+
+            .energy-orb-container {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 20px auto;
+            }
+
+            .rotating-ring {
+                position: absolute;
+                width: 140px;
+                height: 140px;
+                border: 3px solid transparent;
+                border-top: 3px solid #06f103;
+                border-right: 3px solid #00ff00;
+                border-bottom: 3px solid #06f103;
+                border-left: 3px solid #00ff00;
+                border-radius: 50%;
+                animation: rotate 3s linear infinite;
+                z-index: 1;
+            }
+
+            .rotating-ring::before {
+                content: "";
+                position: absolute;
+                top: -5px;
+                left: -5px;
+                right: -5px;
+                bottom: -5px;
+                border: 2px solid transparent;
+                border-top: 2px solid #ffff00;
+                border-right: 2px solid #ffff00;
+                border-radius: 50%;
+                animation: rotate 2s linear infinite reverse;
+            }
+
+            @keyframes rotate {
+                0% {
+                    transform: rotate(0deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+
+            @keyframes pulse {
+                0% {
+                    transform: scale(1);
+                }
+                50% {
+                    transform: scale(1.1);
+                }
+                100% {
+                    transform: scale(1);
+                }
+            }
+
+            .construction {
+                margin: 20px 0;
+            }
+
+            .buttons {
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                margin: 30px 0;
+                flex-wrap: wrap;
+            }
+
+            .button {
+                background: linear-gradient(45deg, #ffff00, #cccc00);
+                color: #000000;
+                padding: 12px 25px;
+                text-decoration: none;
+                border: 3px outset #cccc00;
+                font-weight: bold;
+                border-radius: 8px;
+                transition: all 0.3s ease;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            }
+
+            .button:hover {
+                background: linear-gradient(45deg, #cccc00, #ffff00);
+                border-style: inset;
+                transform: translateY(-2px);
+                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+            }
+
+            #index {
+                height: 300px;
+                width: fit-content;
+                padding: 10px;
+                margin: 0 auto;
+                overflow-y: auto;
+                border: 3px solid #000000;
+                border-radius: 10px;
+                margin-bottom: 2rem;
+                background-color: #ffffff;
+            }
+
+            #index ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            .html-energy-text {
+                color: #000000;
+                font-size: 1.1em;
+                margin: 20px 0;
+                text-shadow: 0 0 10px #06f103;
+            }
+
+            .marquee-container {
+                background: #e9e9ec;
+                border: 2px solid #000000;
+                padding: 10px;
+                margin: 20px 0;
+                border-radius: 8px;
+            }
+
+            marquee {
+                color: #000000;
+                font-weight: bold;
+            }
+
+            .join-section {
+                background-color: #ffffff;
+                border: 3px dotted #000000;
+                padding: 20px;
+                border-radius: 10px;
+                width: fit-content;
+                margin: 0 auto;
+                margin-top: 2rem;
+            }
+
+            .join-section a {
+                color: #000000;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            .join-section a:hover {
+                text-shadow: 0 0 10px #06f103;
+            }
+
+            .footer {
+                font-size: 12px;
+                margin-top: 30px;
+                color: #888888;
+            }
+
+            .spinning-text {
+                animation: spin 3s linear infinite;
+                display: inline-block;
+            }
+
+            @keyframes spin {
+                from {
+                    transform: rotate(0deg);
+                }
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+
+            .flashing-text {
+                animation: flash 1s infinite;
+            }
+
+            @keyframes flash {
+                0%,
+                50% {
+                    opacity: 1;
+                }
+                51%,
+                100% {
+                    opacity: 0.3;
+                }
+            }
+
+            .members h2 {
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>✳️ HTML Energy Webring ✳️</h1>
+            </div>
+
+            <div class="webring-box">
+                <div class="energy-orb-container">
+                    <div class="energy-orb"></div>
+                    <div class="rotating-ring"></div>
+                </div>
+
+                <div class="html-energy-text">
+                    Explore the
+                    <a class="flashing-text" href="https://html.energy" target="_blank"
+                        >HTML Energy</a
+                    >
+                    movement one hyperlink at a time.
+                    <span class="spinning-text">✳️</span>
+                </div>
+
+                <section class="members">
+                    <h2>Members</h2>
+                    <div id="index"></div>
+                </section>
+
+                <div id="html-energy-webring"></div>
+
+                <section class="join-section">
+                    <h2>Want to join?</h2>
+                    <p>
+                        <a
+                            href="https://github.com/gchartier/html-energy-webring/discussions"
+                            target="_blank"
+                            class="html-energy-text"
+                            >Start Here</a
+                        >
+                    </p>
+                </section>
+
+                <div class="construction">
+                    <img src="assets/under-construction.gif" alt="Under Construction" />
+                </div>
+
+                <a href="https://garlic.garden/onionring/">Built with OnionRing.js</a>
+            </div>
+
+            <div class="footer">
+                <span>Written in pure, raw HTML. Can you feel the energy?</span>
+            </div>
+        </div>
+    </body>
+</html>

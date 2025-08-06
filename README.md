@@ -1,28 +1,26 @@
-# ✳️ HTML Energy Austin Webring ✳️
+# ✳️ HTML Energy Webring ✳️
 
-A retro webring connecting people in the [Indie Web](https://indieweb.org/), [Neocities](https://neocities.org/), [HTML Energy](https://html.energy), and other like-minded scenes located in and around Austin, Texas.
+A retro webring connecting the [HTML Energy](https://html.energy) community.
+
+> Built using [OnionRing.js](https://garlic.garden/onionring/).
 
 ## 🚧 Work in Progress
 
-This webring is currently under construction! Check back for updates. If you want to help make this happen, please email me at [gchartier@pm.me](mailto:gchartier@pm.me) or post a discussion in the [GitHub Discussions](https://github.com/gchartier/html-energy-austin-webring/discussions)!
+If you have ideas, thoughts, feedback, etc, please post a discussion in the [GitHub Discussions](https://github.com/gchartier/html-energy-webring/discussions).
 
-## 🫀 Values and Principles (WIP)
+All contributions are welcome!
 
-We believe in:
+## 🔗 How to Join
 
-- **Openness**: Open source and open to all
-- **Fun**: Having fun with the web
-- **Inclusivity**: Honoring the diversity of all people
-- **Raw HTML Energy**: The power of handcrafted markup
-- **Local Community**: Building connections within the Austin and Austin-adjacent indie web scenes
-- **Creative Expression**: Unique designs that reflect individual style
-- **Accessibility**: Making the web accessible to all
-- **Empowerment**: Empowering people to build their own web
-- **Education**: Educating people about the web
+### Option 1
 
-## 🤝 How to Join (WIP)
+1. Fork this repository
+2. Add your site to the `onionring/variables.js` file
+3. Create a pull request
 
-TBD!
+### Option 2
+
+Post your website to the [GitHub Discussions](https://github.com/gchartier/html-energy-webring/discussions) and I'll add it to the webring.
 
 ---
 
