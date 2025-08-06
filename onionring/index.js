@@ -10,7 +10,7 @@ regex = /^https?:\/\/|\/$/g; //strips the http(s):// and trailing slash off the 
 
 list = "";
 for (i = 0; i < sites.length; i++) {
-    list += `<li><a href='${sites[i]}' target="_blank">${sites[i].replace(regex, "")}</a></li>`;
+    list += `<li><a href='${sites[i]}' target='_blank'>${sites[i].replace(regex, "")}</a></li>`;
 }
 
 tag.insertAdjacentHTML(

@@ -33,7 +33,7 @@ if (thisIndex == null) {
         `
 <table>
   <tr>
-    <td>This site isn't part of the ${ringName} webring yet. You should talk to the manager to have your site added to the list!</td>
+    <td>This site isn't part of the ${ringName} webring yet. <a href='https://github.com/gchartier/html-energy-webring?tab=readme-ov-file#-how-to-join' target='_blank'>Click here</a> to join!</td>
   </tr>
 </table>
   `

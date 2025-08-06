@@ -3,10 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="onionring/styles.css" />
-        <script type="text/javascript" src="onionring/variables.js"></script>
-        <script type="text/javascript" src="onionring/widget.js"></script>
-        <script type="text/javascript" src="onionring/index.js"></script>
+        <link rel="stylesheet" href="./onionring/styles.css" />
         <title>✳️ HTML Energy Webring ✳️</title>
         <style>
             body {
@@ -16,26 +13,16 @@
                 text-align: center;
                 margin: 20px;
                 line-height: 1.6;
-            }
-
-            .container {
                 max-width: 800px;
                 margin: 0 auto;
                 padding: 20px;
             }
 
-            .header {
+            header {
                 margin-bottom: 30px;
             }
 
-            h1 {
-                color: #000000;
-                text-shadow: 2px 2px 4px #06f103;
-                font-size: 2.5em;
-                margin-bottom: 10px;
-            }
-
-            .webring-box {
+            main {
                 border: 5px solid #06f103;
                 background: #e9e9ec;
                 padding: 30px;
@@ -47,6 +34,30 @@
                 align-items: center;
                 justify-content: center;
                 gap: 2rem;
+                padding-bottom: 4rem;
+            }
+
+            h1,
+            h2 {
+                color: #000000;
+                text-shadow: 2px 2px 4px #06f103;
+                margin-bottom: 10px;
+            }
+
+            h1 {
+                font-size: 2.5em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .energy-orb-container {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 20px auto;
             }
 
             .energy-orb {
@@ -61,14 +72,6 @@
                 -moz-box-shadow: 0px 0px 197px 14px rgba(6, 241, 3, 0.93);
                 position: relative;
                 z-index: 2;
-            }
-
-            .energy-orb-container {
-                position: relative;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin: 20px auto;
             }
 
             .rotating-ring {
@@ -120,46 +123,14 @@
                 }
             }
 
-            .construction {
-                margin: 20px 0;
-            }
-
-            .buttons {
-                display: flex;
-                justify-content: center;
-                gap: 15px;
-                margin: 30px 0;
-                flex-wrap: wrap;
-            }
-
-            .button {
-                background: linear-gradient(45deg, #ffff00, #cccc00);
-                color: #000000;
-                padding: 12px 25px;
-                text-decoration: none;
-                border: 3px outset #cccc00;
-                font-weight: bold;
-                border-radius: 8px;
-                transition: all 0.3s ease;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-            }
-
-            .button:hover {
-                background: linear-gradient(45deg, #cccc00, #ffff00);
-                border-style: inset;
-                transform: translateY(-2px);
-                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
-            }
-
             #index {
                 height: 300px;
                 width: fit-content;
                 padding: 10px;
                 margin: 0 auto;
                 overflow-y: auto;
-                border: 3px solid #000000;
+                border: 3px dotted #000000;
                 border-radius: 10px;
-                margin-bottom: 2rem;
                 background-color: #ffffff;
             }
 
@@ -169,50 +140,33 @@
                 margin: 0;
             }
 
+            .join {
+                width: fit-content;
+                margin: 0 auto;
+            }
+
+            .join div {
+                background-color: #ffffff;
+                border: 3px dotted #000000;
+                padding: 20px;
+                border-radius: 10px;
+            }
+
+            footer {
+                font-size: 12px;
+                margin-top: 30px;
+                color: #888888;
+            }
+
+            footer img {
+                margin: 20px 0;
+            }
+
             .html-energy-text {
                 color: #000000;
                 font-size: 1.1em;
                 margin: 20px 0;
                 text-shadow: 0 0 10px #06f103;
-            }
-
-            .marquee-container {
-                background: #e9e9ec;
-                border: 2px solid #000000;
-                padding: 10px;
-                margin: 20px 0;
-                border-radius: 8px;
-            }
-
-            marquee {
-                color: #000000;
-                font-weight: bold;
-            }
-
-            .join-section {
-                background-color: #ffffff;
-                border: 3px dotted #000000;
-                padding: 20px;
-                border-radius: 10px;
-                width: fit-content;
-                margin: 0 auto;
-                margin-top: 2rem;
-            }
-
-            .join-section a {
-                color: #000000;
-                text-decoration: none;
-                font-weight: bold;
-            }
-
-            .join-section a:hover {
-                text-shadow: 0 0 10px #06f103;
-            }
-
-            .footer {
-                font-size: 12px;
-                margin-top: 30px;
-                color: #888888;
             }
 
             .spinning-text {
@@ -243,62 +197,61 @@
                     opacity: 0.3;
                 }
             }
-
-            .members h2 {
-                margin-top: 0;
-            }
         </style>
     </head>
     <body>
-        <div class="container">
-            <div class="header">
-                <h1>✳️ HTML Energy Webring ✳️</h1>
+        <header>
+            <h1>✳️ HTML Energy Webring ✳️</h1>
+
+            <div class="energy-orb-container">
+                <div class="energy-orb"></div>
+                <div class="rotating-ring"></div>
             </div>
 
-            <div class="webring-box">
-                <div class="energy-orb-container">
-                    <div class="energy-orb"></div>
-                    <div class="rotating-ring"></div>
-                </div>
+            <div class="html-energy-text">
+                Explore the
+                <a class="flashing-text" href="https://html.energy" target="_blank">HTML Energy</a>
+                community one hyperlink at a time.
+                <span class="spinning-text">✳️</span>
+            </div>
+        </header>
 
-                <div class="html-energy-text">
-                    Explore the
-                    <a class="flashing-text" href="https://html.energy" target="_blank"
-                        >HTML Energy</a
+        <main>
+            <section class="members">
+                <h2>Members</h2>
+                <div id="index">
+                    <script type="text/javascript" src="./onionring/variables.js"></script>
+                    <script type="text/javascript" src="./onionring/index.js"></script>
+                </div>
+            </section>
+
+            <section class="widget">
+                <h2>Widget</h2>
+                <div id="html-energy-webring">
+                    <script type="text/javascript" src="./onionring/variables.js"></script>
+                    <script type="text/javascript" src="./onionring/widget.js"></script>
+                </div>
+            </section>
+
+            <section class="join">
+                <h2>Join</h2>
+                <div>
+                    <a
+                        href="https://github.com/gchartier/html-energy-webring?tab=readme-ov-file#-how-to-join"
+                        target="_blank"
+                        >Click here!</a
                     >
-                    movement one hyperlink at a time.
-                    <span class="spinning-text">✳️</span>
                 </div>
+            </section>
+        </main>
 
-                <section class="members">
-                    <h2>Members</h2>
-                    <div id="index"></div>
-                </section>
-
-                <div id="html-energy-webring"></div>
-
-                <section class="join-section">
-                    <h2>Want to join?</h2>
-                    <p>
-                        <a
-                            href="https://github.com/gchartier/html-energy-webring?tab=readme-ov-file#-how-to-join"
-                            target="_blank"
-                            class="html-energy-text"
-                            >Start Here</a
-                        >
-                    </p>
-                </section>
-
-                <div class="construction">
-                    <img src="assets/under-construction.gif" alt="Under Construction" />
-                </div>
-
-                <a href="https://garlic.garden/onionring/">Built with OnionRing.js</a>
+        <footer>
+            <div class="construction">
+                <img src="assets/under-construction.gif" alt="Under Construction" />
             </div>
 
-            <div class="footer">
-                <span>Written in pure, raw HTML. Can you feel the energy?</span>
-            </div>
-        </div>
+            <a href="https://garlic.garden/onionring/" target="_blank">Built with OnionRing.js</a>
+            <p class="html-energy-text">Written in pure, raw HTML. Can you feel the energy?</p>
+        </footer>
     </body>
 </html>
