@@ -7,7 +7,7 @@
 
 //the full URLs of all the sites in the ring
 var sites = [
-    "https://html-energy-webring.github.io/",
+    "https://www.gabriel-export.earth/html-energy-webring/",
     "https://www.palmertx.net/me2/social.html",
     "https://callmecannibal.neocities.org/",
     "https://croakego.neocities.org/",
