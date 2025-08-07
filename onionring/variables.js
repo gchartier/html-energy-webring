@@ -17,6 +17,7 @@ var sites = [
     "https://frippenator.neocities.org/",
     "https://lyer-online.neocities.org/",
     "https://gabriel-export.earth",
+    "https://pixouls.xyz",
 ];
 
 //the name of the ring
