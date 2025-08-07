@@ -44,7 +44,7 @@ All contributions (code, feature requests, etc) are welcome!
 ```
 
 > [!IMPORTANT]  
-> In order for the webring navigation experience to work well, it's important that you add the webring widget to the **same webpage url** that you provided.
+> In order for the webring navigation experience to work well, it's important that you add the webring widget to the **same webpage url** that you provided. If you add the widget to a different url than the one provided, it will still work, but when someone lands on your page, they will not be able to continue surfing the webring.
 
 ## 📜 License
 
