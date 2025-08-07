@@ -12,13 +12,13 @@ All contributions (code, feature requests, etc) are welcome!
 
 ## 🔗 How to Join
 
-1. Make a new post in the [🔗 Join Requests](https://github.com/gchartier/html-energy-webring/discussions/categories/join-requests) Discussion with:
+1. Either make a new post in [🔗 Join Requests](https://github.com/gchartier/html-energy-webring/discussions/categories/join-requests) or email me at [gchartier@pm.me](mailto:gchartier@pm.me) with:
 
 -   Your website URL
 -   1 thing you love most about the web
 
 2. One of the maintainers will add it to the webring.
-3. Put the following code in your website:
+3. Add the webring widget to your site by adding the following code:
 
 ```html
 <!-- Put the stylesheet in the head of your website -->
