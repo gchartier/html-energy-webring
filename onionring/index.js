@@ -5,14 +5,27 @@
 // === ONIONRING-INDEX ===
 //this file builds the list of sites in the ring for displaying on your index page
 
+// Helper function to extract hostname from URL
+function getHostname(url) {
+    try {
+        let hostname = new URL(url).hostname;
+        // Remove www. prefix if present
+        return hostname.replace(/^www\./, "");
+    } catch {
+        // Fallback for malformed URLs - extract hostname manually
+        const urlWithoutProtocol = url.replace(/^https?:\/\//, "");
+        const hostname = urlWithoutProtocol.split("/")[0].split("?")[0].split("#")[0];
+        return hostname.replace(/^www\./, "");
+    }
+}
+
 var tag = document.getElementById("index");
-regex = /^https?:\/\/(www\.)?|\/$/g; //strips the http(s)://, www., and trailing slash off the urls for aesthetic purposes
 
 list = "";
 for (i = 0; i < sites.length; i++) {
-    list += `<li><a href='${sites[i]}' target='_blank'>${
-        sites[i] === indexPage ? "Home" : sites[i].replace(regex, "")
-    }</a></li>`;
+    const hostname = getHostname(sites[i]);
+    const displayName = sites[i] === indexPage ? "Home" : hostname;
+    list += `<li><a href='${sites[i]}' target='_blank'>${displayName}</a></li>`;
 }
 
 tag.insertAdjacentHTML(
