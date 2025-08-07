@@ -7,17 +7,17 @@
 
 #html-energy-webring {
     margin: 0 auto;
-    padding: 15px; /* creates some space around the widget */
-}
-
-#html-energy-webring table {
-    background-color: #ffffff; /* makes the background pure white */
-    margin: 0 auto; /* centers the widget */
+    padding: 10px; /* creates some space around the widget */
     border-radius: 20px;
     box-shadow: 0px 0px 197px -36px rgba(6, 241, 3, 0.93);
     -webkit-box-shadow: 0px 0px 197px -36px rgba(6, 241, 3, 0.93);
     -moz-box-shadow: 0px 0px 197px -36px rgba(6, 241, 3, 0.93);
     border: 3px dotted #000000;
+}
+
+#html-energy-webring table {
+    background-color: #ffffff; /* makes the background pure white */
+    margin: 0 auto; /* centers the widget */
 }
 
 #html-energy-webring table tr td {
@@ -48,6 +48,7 @@
     color: #000000;
     margin: 20px 0;
     text-shadow: 0 0 10px #06f103;
+    padding: 0;
 }
 
 #html-energy-webring .webring-next a,
@@ -64,6 +65,8 @@
     font-weight: bold;
     color: #000000;
     text-shadow: 2px 2px 4px #06f103;
+    padding: 0;
+    margin: 0 !important;
     margin-bottom: 10px;
 }
 
