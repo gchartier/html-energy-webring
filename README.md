@@ -14,11 +14,11 @@ All contributions (code, feature requests, etc) are welcome!
 
 1. Either make a new post in [🔗 Join Requests](https://github.com/gchartier/html-energy-webring/discussions/categories/join-requests) or email me at [gchartier@pm.me](mailto:gchartier@pm.me) with:
 
--   Your website URL
+-   Your website URL that you will have the webring widget on
 -   1 thing you love most about the web
 
-2. One of the maintainers will add it to the webring.
-3. Add the webring widget to your site by adding the following code:
+2. One of the maintainers will add your url to the webring.
+3. Add the webring widget to your site by adding the following code to the webpage at the url you provided:
 
 ```html
 <!-- Put the stylesheet in the head of your website -->
@@ -39,9 +39,12 @@ All contributions (code, feature requests, etc) are welcome!
         type="text/javascript"
         src="https://www.gabriel-export.earth/html-energy-webring/onionring/widget.js"
     ></script>
-    <!-- 🔺 Order matters! 🔺 -->
+    <!-- 🔺 Order matters here! 🔺 -->
 </div>
 ```
+
+> [!IMPORTANT]  
+> In order for the webring navigation experience to work well, it's important that you add the webring widget to the **same webpage url** that you provided.
 
 ## 📜 License
 
