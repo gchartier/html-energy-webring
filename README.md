@@ -25,7 +25,7 @@ All contributions (code, feature requests, etc) are welcome!
 <head>
     <link
         rel="stylesheet"
-        href="https://github.com/gchartier/html-energy-webring/blob/main/onionring/styles.css"
+        href="https://www.gabriel-export.earth/html-energy-webring/onionring/styles.css"
     />
 </head>
 
@@ -33,11 +33,11 @@ All contributions (code, feature requests, etc) are welcome!
 <div id="html-energy-webring">
     <script
         type="text/javascript"
-        src="https://github.com/gchartier/html-energy-webring/blob/main/onionring/variables.js"
+        src="https://www.gabriel-export.earth/html-energy-webring/onionring/variables.js"
     ></script>
     <script
         type="text/javascript"
-        src="https://github.com/gchartier/html-energy-webring/blob/main/onionring/widget.js"
+        src="https://www.gabriel-export.earth/html-energy-webring/onionring/widget.js"
     ></script>
     <!-- 🔺 Order matters! 🔺 -->
 </div>
