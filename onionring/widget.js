@@ -65,7 +65,7 @@ if (thisIndex == null) {
     <tr>
       <td class='webring-prev'><a href='${sites[previousIndex]}'>⇠</a></td>
       <td class='webring-info'>
-      <p class="webring-name">✳️ ${ringName} ✳️ </br> <span>Webring</span></p>
+        <p class="webring-name">✳️ ${ringName} ✳️ </br> <span>Webring</span></p>
         <span class='webring-links'>
           ${randomText}
           ${indexText}
