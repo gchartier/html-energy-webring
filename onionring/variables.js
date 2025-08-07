@@ -19,7 +19,7 @@ var sites = [
     "https://gabriel-export.earth",
     "https://www.pixouls.xyz/",
     "https://ragman.net",
-    "https://amalinalai.github.io/precipice/",
+    "https://amalinalai.github.io/precipice/busstop",
 ];
 
 //the name of the ring
