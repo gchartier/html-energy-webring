@@ -18,6 +18,7 @@ var sites = [
     "https://lyer-online.neocities.org/",
     "https://gabriel-export.earth",
     "https://pixouls.xyz",
+    "https://ragman.net",
 ];
 
 //the name of the ring
