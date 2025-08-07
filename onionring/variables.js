@@ -17,7 +17,7 @@ var sites = [
     "https://frippenator.neocities.org/",
     "https://lyer-online.neocities.org/",
     "https://gabriel-export.earth",
-    "https://pixouls.xyz",
+    "https://www.pixouls.xyz/",
     "https://ragman.net",
 ];
 
