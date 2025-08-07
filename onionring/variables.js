@@ -30,7 +30,7 @@ var ringID = "html-energy-webring";
 //should the widget include a link to an index page?
 var useIndex = true;
 //the full URL of the index page. if you're not using one, you don't have to specify anything here
-var indexPage = "https://html-energy-austin-webring.github.io/index.html";
+var indexPage = "https://www.gabriel-export.earth/html-energy-webring/";
 
 //should the widget include a random button?
 var useRandom = true;

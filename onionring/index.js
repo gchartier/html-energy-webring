@@ -10,7 +10,9 @@ regex = /^https?:\/\/(www\.)?|\/$/g; //strips the http(s)://, www., and trailing
 
 list = "";
 for (i = 0; i < sites.length; i++) {
-    list += `<li><a href='${sites[i]}' target='_blank'>${sites[i].replace(regex, "")}</a></li>`;
+    list += `<li><a href='${sites[i]}' target='_blank'>${
+        sites[i] === indexPage ? "Home" : sites[i].replace(regex, "")
+    }</a></li>`;
 }
 
 tag.insertAdjacentHTML(
