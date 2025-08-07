@@ -27,6 +27,9 @@
 #html-energy-webring .webring-prev {
     text-align: right;
     font-size: 30px;
+    color: #000000;
+    margin: 20px 0;
+    text-shadow: 0 0 10px #06f103;
 }
 
 #html-energy-webring .webring-info {
@@ -42,6 +45,9 @@
 #html-energy-webring .webring-next {
     text-align: left;
     font-size: 30px;
+    color: #000000;
+    margin: 20px 0;
+    text-shadow: 0 0 10px #06f103;
 }
 
 #html-energy-webring .webring-links {
@@ -50,6 +56,9 @@
 
 .webring-name {
     font-weight: bold;
+    color: #000000;
+    text-shadow: 2px 2px 4px #06f103;
+    margin-bottom: 10px;
 }
 
 .webring-name span {
