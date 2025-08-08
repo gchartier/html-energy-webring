@@ -20,6 +20,9 @@ var sites = [
     "https://www.pixouls.xyz/",
     "https://ragman.net",
     "https://amalinalai.github.io/precipice/busstop",
+    "https://naes.tech/htarotml/",
+    "https://naes.tech/htmlun/",
+    "https://harriethw.github.io/html-day-bristol/",
 ];
 
 //the name of the ring
