@@ -12,7 +12,6 @@ var sites = [
     "https://croakego.neocities.org/",
     "http://constcast.org/",
     "https://corktree.neocities.org/",
-    "https://mxian.work/",
     "https://troy-sucks.neocities.org/",
     "https://frippenator.neocities.org/",
     "https://lyer-online.neocities.org/",
@@ -23,6 +22,7 @@ var sites = [
     "https://naes.tech/htarotml/",
     "https://naes.tech/htmlun/",
     "https://harriethw.github.io/html-day-bristol/",
+    "https://killalocalpedophile.neocities.org/",
 ];
 
 //the name of the ring
