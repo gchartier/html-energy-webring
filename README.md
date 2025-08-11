@@ -46,6 +46,9 @@ All contributions (code, feature requests, etc) are welcome!
 > [!IMPORTANT]  
 > In order for the webring navigation experience to work well, it's important that you add the webring widget to the **same webpage url** that you provided. If you add the widget to a different url than the one provided, it will still work, but when someone lands on your page, they will not be able to continue surfing the webring.
 
+> [!NOTE]  
+> You are free to submit multiple sites if you'd like!
+
 ## 📜 License
 
 This project is licensed under the [cooperative non-violent license (CNPL) v7+](https://thufie.lain.haus/NPL.html), which means, roughly, that anyone is allowed to download, change and share the files as long as you give credit, disclaim what changes you've made, and don't use them to violent, coercive or discriminatory ends.
