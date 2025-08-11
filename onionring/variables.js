@@ -15,7 +15,7 @@ var sites = [
     "https://troy-sucks.neocities.org/",
     "https://frippenator.neocities.org/",
     "https://lyer-online.neocities.org/",
-    "https://gabriel-export.earth",
+    "https://gabriel-export.earth/patterns",
     "https://www.pixouls.xyz/",
     "https://ragman.net",
     "https://amalinalai.github.io/precipice/busstop",
