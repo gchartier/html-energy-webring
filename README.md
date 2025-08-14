@@ -46,8 +46,11 @@ All contributions (code, feature requests, etc) are welcome!
 > [!IMPORTANT]  
 > In order for the webring navigation experience to work well, it's important that you add the webring widget to the **same webpage url** that you provided. If you add the widget to a different url than the one provided, it will still work, but when someone lands on your page, they will not be able to continue surfing the webring.
 
-> [!NOTE]  
+> [!TIP]  
 > You are free to submit multiple sites if you'd like!
+
+> [!NOTE]  
+> The webring index and member list are not hosted from this repository, however this repository is kept up to date with the latest changes. The webring index and member list are hosted on [www.gabriel-export.earth/html-energy-webring/](https://www.gabriel-export.earth/html-energy-webring/). The source code of the JS scripts is [here](https://github.com/gchartier/gchartier.github.io/tree/main/static/html-energy-webring/onionring) and the source code of the index page is [here](https://github.com/gchartier/gchartier.github.io/blob/main/src/routes/html-energy-webring/%2Bpage.svelte).
 
 ## 📜 License
 
