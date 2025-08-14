@@ -23,6 +23,7 @@ var sites = [
     "https://naes.tech/htmlun/",
     "https://harriethw.github.io/html-day-bristol/",
     "https://killalocalpedophile.neocities.org/",
+    "https://baccyflap.com/rsp",
 ];
 
 //the name of the ring
