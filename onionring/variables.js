@@ -24,6 +24,7 @@ var sites = [
     "https://troy-sucks.neocities.org/",
     "https://ragman.net",
     "https://croakego.neocities.org/",
+    "https://www.starcrush.net/pages/main",
 ];
 
 //the name of the ring
