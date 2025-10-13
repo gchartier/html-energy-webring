@@ -28,6 +28,7 @@ var sites = [
   "https://brisray.com/utils/webrings.htm",
   "https://lile5ko.me",
   "https://rayyan.nekoweb.org/",
+  "https://willascool.neocities.org/",
 ];
 
 //the name of the ring
