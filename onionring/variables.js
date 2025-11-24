@@ -33,6 +33,8 @@ var sites = [
   "https://elijahposttrash.neocities.org/",
   "https://sonechka.bouvardia.blue/",
   "https://cyanidefish.neocities.org/",
+  "https://pxl.env.pm/",
+  "https://xyzzyzzyzx.xyz/home.html",
 ];
 
 //the name of the ring
