@@ -35,6 +35,7 @@ var sites = [
   "https://cyanidefish.neocities.org/",
   "https://pxl.env.pm/",
   "https://xyzzyzzyzx.xyz/home.html",
+  "https://devhank.neocities.org/sakuramiku/sakuramiku",
 ];
 
 //the name of the ring
