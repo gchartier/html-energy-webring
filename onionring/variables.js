@@ -33,7 +33,7 @@ var sites = [
   "https://elijahposttrash.neocities.org/",
   "https://sonechka.bouvardia.blue/",
   "https://cyanidefish.neocities.org/",
-  "https://pxl.env.pm/",
+  "https://raster.foo.ng",
   "https://xyzzyzzyzx.xyz/home.html",
   "https://devhank.neocities.org/sakuramiku/sakuramiku",
   "https://sumthing.neocities.org",
