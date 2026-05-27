@@ -31,13 +31,17 @@ var sites = [
   "https://willascool.neocities.org/",
   "https://moonlit.exposed/not-too-far-across-the-fence/",
   "https://elijahposttrash.neocities.org/",
-  "https://sonechka.bouvardia.blue/",
   "https://cyanidefish.neocities.org/",
   "https://r.foo.ng",
   "https://xyzzyzzyzx.xyz/home.html",
   "https://devhank.neocities.org/sakuramiku/sakuramiku",
   "https://sumthing.neocities.org",
   "https://lunaseeker.com/",
+  "https://austinhuang.me/",
+  "https://astrma.stream/",
+  "https://binomech.net",
+  "https://crispypata.neocities.org/",
+  "https://worldwideshen.neocities.org/",
 ];
 
 //the name of the ring
