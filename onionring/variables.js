@@ -42,6 +42,7 @@ var sites = [
   "https://binomech.net",
   "https://crispypata.neocities.org/",
   "https://worldwideshen.neocities.org/",
+  "https://interstellarshareware.net/webrings/",
 ];
 
 //the name of the ring
