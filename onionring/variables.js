@@ -43,6 +43,7 @@ var sites = [
   "https://crispypata.neocities.org/",
   "https://worldwideshen.neocities.org/",
   "https://interstellarshareware.net/webrings/",
+  "https://www.juliannes.website/",
 ];
 
 //the name of the ring
