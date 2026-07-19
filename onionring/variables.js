@@ -44,6 +44,9 @@ var sites = [
   "https://worldwideshen.neocities.org/",
   "https://interstellarshareware.net/webrings/",
   "https://www.juliannes.website/",
+  "https://my-awesome-website.neocities.org",
+  "https://sabrinaa.page",
+  "https://ruinacchi.neocities.org/",
 ];
 
 //the name of the ring
