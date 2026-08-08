@@ -47,6 +47,7 @@ var sites = [
   "https://my-awesome-website.neocities.org",
   "https://sabrinaa.page",
   "https://ruinacchi.neocities.org/",
+  "https://reiscyberworld.neocities.org/",
 ];
 
 //the name of the ring
