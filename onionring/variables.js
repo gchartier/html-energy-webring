@@ -29,7 +29,7 @@ var sites = [
   "https://lile5ko.me",
   "https://rayyan.nekoweb.org/",
   "https://willascool.neocities.org/",
-  "https://moonlit.exposed/not-too-far-across-the-fence/",
+  "https://moonlit.panko.zip/train-stop/",
   "https://elijahposttrash.neocities.org/",
   "https://cyanidefish.neocities.org/",
   "https://r.foo.ng",
@@ -48,6 +48,7 @@ var sites = [
   "https://sabrinaa.page",
   "https://ruinacchi.neocities.org/",
   "https://reiscyberworld.neocities.org/",
+  "https://sidneyscape.space/"
 ];
 
 //the name of the ring
